@@ -1,5 +1,6 @@
+# vim:ft=ansible:
 ---
 - hosts: tacosserver
-
   tasks:
     - name: Imprime tacos
+      debug: msg="Tacos ahora!!"
