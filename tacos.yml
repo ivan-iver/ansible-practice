@@ -1,0 +1,5 @@
+---
+- hosts: tacosserver
+
+  tasks:
+    - name: Imprime tacos
